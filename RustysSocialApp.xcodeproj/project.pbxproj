@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		18E7D2971DA1605B0080246B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D2961DA1605B0080246B /* AppDelegate.swift */; };
-		18E7D2991DA1605B0080246B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D2981DA1605B0080246B /* ViewController.swift */; };
+		18E7D2991DA1605B0080246B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D2981DA1605B0080246B /* SignInVC.swift */; };
 		18E7D29C1DA1605B0080246B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E7D29A1DA1605B0080246B /* Main.storyboard */; };
 		18E7D29E1DA1605B0080246B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E7D29D1DA1605B0080246B /* Assets.xcassets */; };
 		18E7D2A11DA1605B0080246B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E7D29F1DA1605B0080246B /* LaunchScreen.storyboard */; };
 		18E7D2AC1DA1605B0080246B /* RustysSocialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D2AB1DA1605B0080246B /* RustysSocialAppTests.swift */; };
+		18E7D2B71DA1609E0080246B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18E7D2B61DA1609E0080246B /* GoogleService-Info.plist */; };
+		B670C8290CF2E6A3EFB8A578 /* Pods_RustysSocialAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89F81D1F9C1BC78D41DDA3 /* Pods_RustysSocialAppTests.framework */; };
+		E4BC51A2ACD95A957C7BCF7C /* Pods_RustysSocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738F1F70C815D63DF7E9D93C /* Pods_RustysSocialApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,7 @@
 /* Begin PBXFileReference section */
 		18E7D2931DA1605A0080246B /* RustysSocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RustysSocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E7D2961DA1605B0080246B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18E7D2981DA1605B0080246B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E7D2981DA1605B0080246B /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		18E7D29B1DA1605B0080246B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E7D29D1DA1605B0080246B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E7D2A01DA1605B0080246B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,13 @@
 		18E7D2A71DA1605B0080246B /* RustysSocialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RustysSocialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E7D2AB1DA1605B0080246B /* RustysSocialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustysSocialAppTests.swift; sourceTree = "<group>"; };
 		18E7D2AD1DA1605B0080246B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E7D2B61DA1609E0080246B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		256C222D29756575FD8EAAA5 /* Pods-RustysSocialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RustysSocialApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RustysSocialApp/Pods-RustysSocialApp.debug.xcconfig"; sourceTree = "<group>"; };
+		259173692761EC619AC5E0EF /* Pods-RustysSocialAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RustysSocialAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RustysSocialAppTests/Pods-RustysSocialAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BB1A8AE54D5D64D2B06DC61 /* Pods-RustysSocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RustysSocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RustysSocialApp/Pods-RustysSocialApp.release.xcconfig"; sourceTree = "<group>"; };
+		738F1F70C815D63DF7E9D93C /* Pods_RustysSocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RustysSocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64696B303B6E5C681916EAC /* Pods-RustysSocialAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RustysSocialAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RustysSocialAppTests/Pods-RustysSocialAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB89F81D1F9C1BC78D41DDA3 /* Pods_RustysSocialAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RustysSocialAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BC51A2ACD95A957C7BCF7C /* Pods_RustysSocialApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B670C8290CF2E6A3EFB8A578 /* Pods_RustysSocialAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +74,8 @@
 				18E7D2951DA1605A0080246B /* RustysSocialApp */,
 				18E7D2AA1DA1605B0080246B /* RustysSocialAppTests */,
 				18E7D2941DA1605A0080246B /* Products */,
+				8CED2D5E796B07F4D12DEE27 /* Pods */,
+				828A95360EDB86CFF750B27C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +91,14 @@
 		18E7D2951DA1605A0080246B /* RustysSocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				18E7D2B91DA162FA0080246B /* Model */,
+				18E7D2BA1DA163250080246B /* View */,
+				18E7D2B81DA162EA0080246B /* Controller */,
 				18E7D2961DA1605B0080246B /* AppDelegate.swift */,
-				18E7D2981DA1605B0080246B /* ViewController.swift */,
-				18E7D29A1DA1605B0080246B /* Main.storyboard */,
 				18E7D29D1DA1605B0080246B /* Assets.xcassets */,
 				18E7D29F1DA1605B0080246B /* LaunchScreen.storyboard */,
 				18E7D2A21DA1605B0080246B /* Info.plist */,
+				18E7D2B61DA1609E0080246B /* GoogleService-Info.plist */,
 			);
 			path = RustysSocialApp;
 			sourceTree = "<group>";
@@ -96,6 +112,49 @@
 			path = RustysSocialAppTests;
 			sourceTree = "<group>";
 		};
+		18E7D2B81DA162EA0080246B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18E7D2981DA1605B0080246B /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		18E7D2B91DA162FA0080246B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18E7D2BA1DA163250080246B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18E7D29A1DA1605B0080246B /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		828A95360EDB86CFF750B27C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738F1F70C815D63DF7E9D93C /* Pods_RustysSocialApp.framework */,
+				EB89F81D1F9C1BC78D41DDA3 /* Pods_RustysSocialAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CED2D5E796B07F4D12DEE27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				256C222D29756575FD8EAAA5 /* Pods-RustysSocialApp.debug.xcconfig */,
+				2BB1A8AE54D5D64D2B06DC61 /* Pods-RustysSocialApp.release.xcconfig */,
+				259173692761EC619AC5E0EF /* Pods-RustysSocialAppTests.debug.xcconfig */,
+				A64696B303B6E5C681916EAC /* Pods-RustysSocialAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E7D2B01DA1605B0080246B /* Build configuration list for PBXNativeTarget "RustysSocialApp" */;
 			buildPhases = (
+				D863328D546B7881C71823C3 /* [CP] Check Pods Manifest.lock */,
 				18E7D28F1DA1605A0080246B /* Sources */,
 				18E7D2901DA1605A0080246B /* Frameworks */,
 				18E7D2911DA1605A0080246B /* Resources */,
+				4333382728D53E87B5527C0B /* [CP] Embed Pods Frameworks */,
+				80F936D9D760DEB96F060923 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E7D2B31DA1605B0080246B /* Build configuration list for PBXNativeTarget "RustysSocialAppTests" */;
 			buildPhases = (
+				8D6D9F801165A879ADE2B1C3 /* [CP] Check Pods Manifest.lock */,
 				18E7D2A31DA1605B0080246B /* Sources */,
 				18E7D2A41DA1605B0080246B /* Frameworks */,
 				18E7D2A51DA1605B0080246B /* Resources */,
+				E92D3660910D7966D656D99D /* [CP] Embed Pods Frameworks */,
+				DDFEEE2A1D06841D62EBBEA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E7D2A11DA1605B0080246B /* LaunchScreen.storyboard in Resources */,
+				18E7D2B71DA1609E0080246B /* GoogleService-Info.plist in Resources */,
 				18E7D29E1DA1605B0080246B /* Assets.xcassets in Resources */,
 				18E7D29C1DA1605B0080246B /* Main.storyboard in Resources */,
 			);
@@ -196,12 +262,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4333382728D53E87B5527C0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RustysSocialApp/Pods-RustysSocialApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F936D9D760DEB96F060923 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RustysSocialApp/Pods-RustysSocialApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6D9F801165A879ADE2B1C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D863328D546B7881C71823C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFEEE2A1D06841D62EBBEA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RustysSocialAppTests/Pods-RustysSocialAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E92D3660910D7966D656D99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RustysSocialAppTests/Pods-RustysSocialAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18E7D28F1DA1605A0080246B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E7D2991DA1605B0080246B /* ViewController.swift in Sources */,
+				18E7D2991DA1605B0080246B /* SignInVC.swift in Sources */,
 				18E7D2971DA1605B0080246B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +498,7 @@
 		};
 		18E7D2B11DA1605B0080246B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256C222D29756575FD8EAAA5 /* Pods-RustysSocialApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68T9DHR6UY;
@@ -352,6 +512,7 @@
 		};
 		18E7D2B21DA1605B0080246B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB1A8AE54D5D64D2B06DC61 /* Pods-RustysSocialApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68T9DHR6UY;
@@ -365,6 +526,7 @@
 		};
 		18E7D2B41DA1605B0080246B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259173692761EC619AC5E0EF /* Pods-RustysSocialAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +542,7 @@
 		};
 		18E7D2B51DA1605B0080246B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64696B303B6E5C681916EAC /* Pods-RustysSocialAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +575,7 @@
 				18E7D2B21DA1605B0080246B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E7D2B31DA1605B0080246B /* Build configuration list for PBXNativeTarget "RustysSocialAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +584,7 @@
 				18E7D2B51DA1605B0080246B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
